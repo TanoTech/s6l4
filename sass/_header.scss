@@ -1,0 +1,42 @@
+/*===HEADER===*/
+.nav-link.dropdown-toggle::after,
+.nav-link.dropdown-toggle::before {
+    display: none;
+}
+
+
+#side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenitoreNotification {
+    background-color: rgba(128, 128, 128, 0.361);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+#notification {
+    width: 2rem;
+}
+
+#userContainer {
+    width: 4rem; 
+}
+
+#userImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+#banner {
+    background-color: $coloreViola;
+}
+
+#side {
+    display: flex;
+}
